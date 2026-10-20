@@ -1,0 +1,34 @@
+CALENDRIER MICRO-FOLIE — INSTALLATION SIMPLE
+
+Le seul fichier à publier est index.html.
+Tout est inclus : les 25 œuvres, le logo, la mise en page et le calendrier.
+Aucune installation, aucun dossier d’images, aucun logiciel supplémentaire.
+
+1. POUR LE VOIR SUR TON ORDINATEUR
+Double-clique sur index.html : le calendrier s’ouvre dans ton navigateur.
+Active « Tout découvrir » pour ouvrir toutes les cases avant décembre.
+Les visites sont mémorisées uniquement dans le navigateur utilisé.
+Les cases 5 et 23 présentent un visuel et une notice ; les vidéos restent
+accessibles dans le musée numérique Micro-Folie comme dans la version d’origine.
+
+2. POUR LE METTRE SUR GITHUB
+- Décompresse ce ZIP.
+- Ouvre ton dépôt GitHub (ou crée un nouveau dépôt public).
+- Clique sur « Add file » puis « Upload files ».
+- Dépose le fichier index.html directement à la racine du dépôt.
+  Ne dépose ni le ZIP ni le dossier qui le contient.
+- Valide avec « Commit changes ».
+- Dans « Settings » > « Pages », choisis « Deploy from a branch ».
+- Sélectionne la branche main et le dossier /(root), puis « Save ».
+  Si ta branche porte un autre nom, sélectionne celle contenant index.html.
+- Une fois la publication terminée, l’adresse du site apparaît dans Pages.
+
+3. LE CALENDRIER
+L’édition est réglée sur décembre 2026 (heure de Paris).
+Les 24 cases et le cadeau du 25 décembre sont conservés.
+« Tout découvrir » est accessible à tous et permet de prévisualiser les œuvres.
+La mention 2025 en bas de page correspond à la sélection d’œuvres d’origine.
+Pour changer l’année, modifier « const CALENDAR_YEAR = 2026; » dans index.html.
+
+Documentation GitHub :
+https://docs.github.com/fr/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
